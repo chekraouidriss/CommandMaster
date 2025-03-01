@@ -1,0 +1,18 @@
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion de commande.csproj.AssemblyReference.cache
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.form_menu.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.Properties.Resources.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion de commande.csproj.GenerateResource.cache
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion de commande.csproj.CoreCompileInputs.cache
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\bin\Debug\gstion de commande.exe.config
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\bin\Debug\gstion de commande.exe
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\bin\Debug\gstion de commande.pdb
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion de commande.exe
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion de commande.pdb
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.Form_cnx.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.user_liste_client.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.form_ajouter_mmoifier_cli.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.User_liste_prod.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.form_ajouter_modifier_PROD.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.User_liste_commande.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.Form_prod_comd.resources
+C:\Users\amine\OneDrive\Documents\min-proj-SI\gstion de commande\obj\Debug\gstion_de_commande.formulairedossier.newform_ligne_commande.resources

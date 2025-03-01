@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78E4AD31-466F-459B-9A7C-4499056A2958}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gstion_de_commande</RootNamespace>
+    <AssemblyName>gstion de commande</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classedossier\Class_cnx.cs" />
+    <Compile Include="classedossier\cls_client.cs" />
+    <Compile Include="formulairedossier\Form-cnx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\Form-cnx.Designer.cs">
+      <DependentUpon>Form-cnx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\form_ajouter_mmoifier_cli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\form_ajouter_mmoifier_cli.Designer.cs">
+      <DependentUpon>form_ajouter_mmoifier_cli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\form_ajouter_modifier_PROD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\form_ajouter_modifier_PROD.Designer.cs">
+      <DependentUpon>form_ajouter_modifier_PROD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\form_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\form_menu.Designer.cs">
+      <DependentUpon>form_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\Form_prod_comd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\Form_prod_comd.Designer.cs">
+      <DependentUpon>Form_prod_comd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\newform_ligne_commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\newform_ligne_commande.Designer.cs">
+      <DependentUpon>newform_ligne_commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\User_liste_client.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\User_liste_client.Designer.cs">
+      <DependentUpon>User_liste_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\User_liste_commande.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\User_liste_commande.Designer.cs">
+      <DependentUpon>User_liste_commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulairedossier\User_liste_prod.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formulairedossier\User_liste_prod.Designer.cs">
+      <DependentUpon>User_liste_prod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formulairedossier\Form-cnx.resx">
+      <DependentUpon>Form-cnx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\form_ajouter_mmoifier_cli.resx">
+      <DependentUpon>form_ajouter_mmoifier_cli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\form_ajouter_modifier_PROD.resx">
+      <DependentUpon>form_ajouter_modifier_PROD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\form_menu.resx">
+      <DependentUpon>form_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\Form_prod_comd.resx">
+      <DependentUpon>Form_prod_comd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\newform_ligne_commande.resx">
+      <DependentUpon>newform_ligne_commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\User_liste_client.resx">
+      <DependentUpon>User_liste_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\User_liste_commande.resx">
+      <DependentUpon>User_liste_commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulairedossier\User_liste_prod.resx">
+      <DependentUpon>User_liste_prod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
